@@ -1,2 +1,179 @@
 # sergeyekaterina
 Сайт-приглашение на свадьбу Серёжи и Катюши 15.08.2026
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадьба Серёжи и Катюши</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fdfaf5;
+            color: #4a4a4a;
+        }
+        h1, h2, h3 {
+            font-family: 'Amatic SC', cursive;
+        }
+        .hero-title {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .rustic-border {
+            border: 8px double #8b5a2b;
+        }
+        .accent-bg {
+            background-color: #e8f0e3;
+        }
+        .image-card img {
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .image-card img:hover {
+            transform: scale(1.02);
+        }
+        .btn-green {
+            background-color: #6b8e23;
+            color: white;
+            transition: 0.3s;
+        }
+        .btn-green:hover {
+            background-color: #556b2f;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- BLOCK 1: Main Invitation -->
+    <section class="relative h-screen flex flex-col justify-end items-center text-white pb-20 overflow-hidden">
+        <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/56e61a7a-544a-4a33-b73f-2dfffda1ef88_20250610_194008.jpg"
+             alt="Серёжа и Катюша" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-6xl md:text-8xl hero-title mb-4">Свадьба Серёжи и Катюши</h1>
+            <p class="text-2xl md:text-3xl font-light mb-2">15 августа 2026</p>
+            <p class="text-xl md:text-2xl font-light tracking-widest uppercase italic">Ждём только своих!</p>
+        </div>
+    </section>
+
+    <!-- BLOCK 2: Dress Code -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl text-[#8b5a2b] mb-4">Стиль рустик</h2>
+            <p class="max-w-2xl mx-auto text-lg">
+                Мы вдохновляемся уютным стилем рустик и славянской эстетикой. Будем рады видеть вас в натуральных тканях (лён, хлопок).
+                Любой костюм можно дополнить интересными аксессуарами. <br>
+                <span class="font-bold text-red-700 uppercase mt-4 block">Просьба: оставьте белый цвет для невесты.</span>
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Alternating Male/Female looks -->
+            <div class="image-card text-center">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/2b796c4e-b840-43fb-9d01-e7c81478073f_64b0e2f54fa90c2f7774ac8a56zn--russkij-stil-russkaya-rubaha-ognennyj-znak-cherno-krasnaya-s-.jpg" class="w-full h-[400px] object-cover" alt="Мужской образ 1">
+                <p class="mt-2 italic">Мужской образ</p>
+            </div>
+            <div class="image-card text-center">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/16ef5485-c7c9-4caa-a1db-840f09fd83ce_i_(13).jpeg" class="w-full h-[400px] object-cover" alt="Женский образ 1">
+                <p class="mt-2 italic">Женский образ</p>
+            </div>
+            <div class="image-card text-center">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/4fb937dd-3537-4b3e-b7f2-444d92fb5467_6349121264.jpg" class="w-full h-[400px] object-cover" alt="Мужской образ 2">
+                <p class="mt-2 italic">Мужской образ</p>
+            </div>
+            <div class="image-card text-center">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/05c1f2b4-debb-47e1-b538-4a41e9cafde1_i_(16).jpeg" class="w-full h-[400px] object-cover" alt="Женский образ 2">
+                <p class="mt-2 italic">Женский образ</p>
+            </div>
+            <div class="image-card text-center">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/657cd88c-73a4-484c-8aeb-027e6c488c1b_6368694889.jpg" class="w-full h-[400px] object-cover" alt="Мужской образ 3">
+                <p class="mt-2 italic">Мужской образ</p>
+            </div>
+            <div class="image-card text-center">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/88524bec-87d4-4ef4-a16b-af7932eb6852_6817988387.jpg" class="w-full h-[400px] object-cover" alt="Женский образ 3">
+                <p class="mt-2 italic">Женский образ</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCK 3: Location -->
+    <section class="accent-bg py-16 px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <img src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/5d20ac73-2745-4706-ac55-e9756f24b94c_Screenshot_20260412_184951_Yandex_Browser.jpg"
+                     alt="Место проведения" class="rounded-2xl shadow-xl w-full">
+            </div>
+            <div class="md:w-1/2 space-y-4">
+                <h2 class="text-5xl text-[#556b2f]">Локация</h2>
+                <p class="text-xl font-bold">Загородный коттедж в пос. Сосново</p>
+                <p class="text-gray-600 italic">Ленинградская область, Приозерский район, Сосновское сельское поселение, деревня Снегирёвка, ул. Приозерная, д. 17</p>
+                <div class="p-4 border-l-4 border-[#6b8e23] bg-white/50">
+                    <p class="text-lg font-semibold">Начало Welcome: 14:30</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCK 4: Transfer & Accomodation -->
+    <section class="py-16 px-6 bg-[#faf3e0]">
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left">
+            <div class="space-y-4">
+                <h2 class="text-5xl text-[#8b5a2b]">Трансфер</h2>
+                <p><strong>Туда:</strong> От метро Площадь Ленина в 13:00 (15.08). Локацию сообщим отдельно.</p>
+                <p><strong>Обратно:</strong> Обратный выезд запланирован на 13:00 (16.08).</p>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-5xl text-[#8b5a2b]">Проживание</h2>
+                <p>Мы любим вас, поэтому организовали проживание для всех гостей на период праздника — с 15 по 16 августа.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCK 5: Questionnaire -->
+    <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-5xl mb-6">Анкета гостя</h2>
+        <p class="mb-8 text-lg">
+            Мы очень хотим, чтобы мероприятие прошло для всех комфортно, для этого просим заполнить небольшую анкету по ссылке ниже.
+            Нам важно знать, останетесь ли вы с ночевкой или вам понадобится трансфер обратно 15.08.
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW58c8dubasfVeiWHzLBbC9df0gl6nXOMcyWgxWpOh_zencw/viewform?usp=dialog"
+           target="_blank"
+           class="inline-block px-10 py-4 btn-green rounded-full text-xl font-bold uppercase tracking-wider shadow-lg">
+           Заполнить анкету
+        </a>
+    </section>
+
+    <!-- BLOCK 6: Nuances -->
+    <section class="py-16 px-6 accent-bg flex justify-center">
+        <div class="max-w-3xl rustic-border p-8 md:p-12 bg-white rounded-lg shadow-inner">
+            <h2 class="text-5xl text-center mb-8">Нюансы и пожелания</h2>
+            <ul class="space-y-6 text-lg">
+                <li class="flex items-start gap-3">
+                    <span class="text-2xl">🐱</span>
+                    <span>Нам приятно ваше внимание в виде цветов, но с нами живут два "мохнатых чудика", которые любят ими питаться. Мы будем благодарны, если вы замените эту традицию на то, что не пострадает от лап шерстяных.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-2xl">🛌</span>
+                    <span>Для комфортной ночевки советуем взять все необходимое: полотенца, удобную одежду на вечер и прочие личные принадлежности.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-2xl">🌊</span>
+                    <span>Территория выходит прямо к пруду! Берите плавательные принадлежности, будем купаться вдоволь.</span>
+                </li>
+                <li class="flex items-start gap-3 font-bold text-[#8b5a2b]">
+                    <span class="text-2xl">🔞</span>
+                    <span>Формат мероприятия 18+. Мы очень любим детей и животных, но в этот день отдыхаем только взрослыми.</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500">
+        <p>&copy; 2026 Свадьба Серёжи и Катюши. До встречи!</p>
+    </footer>
+
+</body>
+</html>
